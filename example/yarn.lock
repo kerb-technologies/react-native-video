@@ -3380,10 +3380,23 @@ react-deep-force-update@^1.0.0:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/react-deep-force-update/-/react-deep-force-update-1.0.1.tgz#f911b5be1d2a6fe387507dd6e9a767aa2924b4c7"
 
-"react-native-video@file:../":
-  version "1.0.0"
+"react-native-video@file:..":
+  version "1.1.0"
   dependencies:
     keymirror "0.1.1"
+    react-native-windows "0.41.0-rc.0"
+
+react-native-windows@0.41.0-rc.0:
+  version "0.41.0-rc.0"
+  resolved "https://registry.yarnpkg.com/react-native-windows/-/react-native-windows-0.41.0-rc.0.tgz#d70a36f546d8d448d875a9d69bd2c42fc671065c"
+  dependencies:
+    chalk "^1.1.3"
+    glob "^7.0.3"
+    shelljs "^0.7.0"
+    uuid "^2.0.1"
+    xml-parser "^1.2.1"
+    yeoman-environment "^1.5.3"
+    yeoman-generator "^0.21.2"
 
 react-native-windows@^0.40.0:
   version "0.40.0"
@@ -4149,8 +4162,8 @@ tmp@^0.0.29:
     os-tmpdir "~1.0.1"
 
 tmpl@1.0.x:
-  version "1.0.4"
-  resolved "https://registry.yarnpkg.com/tmpl/-/tmpl-1.0.4.tgz#23640dd7b42d00433911140820e5cf440e521dd1"
+  version "1.0.5"
+  resolved "https://registry.yarnpkg.com/tmpl/-/tmpl-1.0.5.tgz#8683e0b902bb9c20c4f726e3c0b69f36518c07cc"
 
 to-absolute-glob@^0.1.1:
   version "0.1.1"
